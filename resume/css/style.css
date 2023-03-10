@@ -1,0 +1,149 @@
+body {
+    background-color: rgb(25, 25, 25);
+}
+
+div {
+    list-style: none;
+}
+
+#test {
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 5vh;
+    text-align: center;
+    transition: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+#arrowleft_backredirect {
+    width: 25%;
+    height: 25%;
+    margin-left: 6%;
+    transition: .5s;
+    text-decoration: none;
+}
+
+#arrowleft_backredirect:hover {
+    transition: .5s;
+    color: green;
+    width: 25%;
+    height: 25%;
+    margin-left: 6%;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#back_to_start {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    transition: .5s;
+    text-decoration: none;
+}
+
+#back_to_start:hover {
+    transition: .5s;
+    color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* ABOUT ME HEADER */
+
+#aboutme_header {
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    margin-left: 20%;
+    margin-top: 10%;
+    font-size: 6vh
+}
+
+/* ABOUT ME DESCRIPTION (PARAGRAPH) */
+#aboutme_description {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 500px;
+    margin-left: 20%
+}
+
+/* ABOUT ME IMAGE */
+
+#aboutme_image {
+    width: 20vw;
+    height: 13vw;
+    margin-top: -16%;
+    margin-left: 60%;
+}
+
+/* ABOUT ME ENDE */
+/* ########################### */
+/* MEINE PROJEKTE */
+
+/* MEINE PROJEKTE HEADER */
+#projectsivedone_header {
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: right;
+    margin-right: 20%;
+    font-size: 6vh;
+    text-decoration: underline;
+}
+
+/* MEINE PROJEKTE DESCRIPTION (PARAGRAPH) */
+
+#projectsivedone_description {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 450px;
+    text-align: right;
+    margin-left: 50%;
+}
+
+/* MEINE PROJEKTE BILD */
+
+#projectsivedone_image {
+    width: 30vw;
+    height: 13vw;
+    margin-top: -20%;
+    margin-left: 18%;
+}
+
+/* MEINE PROJEKTE ENDE */
+/* ########################### */
+/* MEINE INTERESSEN */
+
+#myinterests_header {
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    margin-left: 20%;
+    margin-top: 2%;
+    font-size: 6vh
+}
+
+/* ABOUT ME DESCRIPTION (PARAGRAPH) */
+#myinterests_description {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 500px;
+    margin-left: 20%
+}
+
+/* ABOUT ME IMAGE */
+
+#myinterests_image {
+    width: 20vw;
+    height: 13vw;
+    margin-top: -16%;
+    margin-left: 60%;
+}

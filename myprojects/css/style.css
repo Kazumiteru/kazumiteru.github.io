@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(25, 25, 25);
+}
+
+div {
+    list-style: none;
+}
+
+#test {
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 5vh;
+    text-align: center;
+    transition: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+#arrowleft_backredirect {
+    width: 25%;
+    height: 25%;
+    margin-left: 6%;
+    transition: .5s;
+    text-decoration: none;
+}
+
+#arrowleft_backredirect:hover {
+    transition: .5s;
+    color: green;
+    width: 25%;
+    height: 25%;
+    margin-left: 6%;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#back_to_start {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    transition: .5s;
+    text-decoration: none;
+}
+
+#back_to_start:hover {
+    transition: .5s;
+    color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Powershell Project START */
+#powershell_project_image {
+    width: 30%;
+    height: 30%;
+    margin-left: 35%;
+    margin-top: -5%;
+}
+
+#powershell_script_description {
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: -4%;
+    transition: .5s;
+}
+
+#powershell_script_description:hover {
+    color: rgb(110, 110, 240);
+    font-size: 2.2vh;
+    transition: .5s;
+    font-weight: bold;
+}
+/*Powershell Project END */
+
+/*FiveM Project START */
+#fivem_project_image {
+    width: 25%;
+    height: 25%;
+    margin-left: 37%;
+}
+
+#fivem_project_description {
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: .5s;
+}
+
+#fivem_project_description:hover {
+    font-weight: bold;
+    transition: .5s;
+    color: orange;
+}

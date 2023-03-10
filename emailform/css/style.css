@@ -1,0 +1,121 @@
+body {
+    background-color: rgb(25, 25, 25);
+}
+
+div {
+    list-style: none;
+}
+
+#test {
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 5vh;
+    text-align: center;
+    transition: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+#arrowleft_backredirect {
+    width: 25%;
+    height: 25%;
+    margin-left: 6%;
+    transition: .5s;
+    text-decoration: none;
+}
+
+#arrowleft_backredirect:hover {
+    transition: .5s;
+    color: green;
+    width: 25%;
+    height: 25%;
+    margin-left: 6%;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#back_to_start {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    transition: .5s;
+    text-decoration: none;
+}
+
+#back_to_start:hover {
+    transition: .5s;
+    color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* E-Mail Form Class */
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    transition: .5s;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    transition: .5s;
+    background-color: #3adb42;
+    -webkit-box-shadow: 0px 1px 10px 7px #20FF0D; 
+    box-shadow: 0px 1px 10px 7px #20FF0D;
+  }
+
+  input[type=goback] {
+    width: 47%;
+    background-color: #c31212;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .5s;
+  }
+
+  input[type=goback]:hover {
+    transition: .5s;
+    background-color: #f80b0b;
+    -webkit-box-shadow: 0px 1px 10px 7px #f80b0b;
+    box-shadow: 0px 1px 10px 7px #f80b0b;
+  }
+  
+  div {
+    border-radius: 5px;
+    padding: 20px;
+  }
+
+  #ueberschriften {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  #inhaltmail {
+    resize: horizontal;
+    max-width: 99.4%;
+  }
